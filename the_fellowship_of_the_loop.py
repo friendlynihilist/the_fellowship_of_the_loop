@@ -21,7 +21,7 @@
 
 from csv import DictReader
 from collections import Counter
-from networkx import nx, DiGraph, MultiDiGraph
+from networkx import *
 from ancillary_functions import *
 
 def process_citation_data(file_path):
