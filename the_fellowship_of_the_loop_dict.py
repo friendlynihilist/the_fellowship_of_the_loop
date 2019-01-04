@@ -1,6 +1,6 @@
 from csv import DictReader
 from collections import Counter, defaultdict
-from networkx import nx, MultiDiGraph, Graph
+from networkx import *
 from ancillary_functions import *
 
 def process_citation_data(file_path):
